@@ -1,1 +1,2 @@
-# Objective:  Place a character in a maze at a randomized location, then navigate to the exit.
+# Objective:  
+Place a character in a maze at a randomized location, then have the user navigate to the exit.
