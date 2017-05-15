@@ -1,4 +1,4 @@
-# Philips Hue automation on MAC Address recognition
+# Philips Hue automation with MAC Address recognition
 # Description:
 Scan the network for a known MAC Address, my phone.  When my phone is detected as having joined the network, turn on my dining room lights.
 
