@@ -1,0 +1,106 @@
+@import http://fonts.googleapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+#main {
+width:25%;
+margin:0 auto;
+font-family:raleway
+}
+span {
+color:red
+}
+h2 {
+text-align:center;
+border-radius:10px 10px 0 0;
+margin:-10px -40px;
+padding:15px
+}
+hr {
+border:0;
+border-bottom:1px solid #ccc;
+margin:10px -40px;
+margin-bottom:30px
+}
+#login {
+width:300px;
+float:left;
+border-radius:10px;
+font-family:raleway;
+border:2px solid #ccc;
+padding:10px 40px 25px;
+margin-top:70px
+}
+input[type=text],input[type=password] {
+width:99.5%;
+padding:10px;
+margin-top:8px;
+border:1px solid #ccc;
+padding-left:5px;
+font-size:16px;
+font-family:raleway
+}
+input[type=submit] {
+width:50%;
+background-color:#b3d7ff;
+color:#000000;
+border:2px solid #b3d7ff;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:-15px;
+margin-top:10px
+}
+input[type=submitpw] {
+width:25%;
+float:left;
+text-align:center;
+background-color:#b3d7ff;
+color:#000000;
+border:2px solid #b3d7ff;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:-15px;
+margin-top:10px;
+margin-left:10px;
+}
+input[type=cancelpw] {
+width:25%;
+float:right;
+text-align:center;
+background-color:#ffb3b3;
+color:#000000;
+border:2px solid #ffb3b3;
+padding:10px;
+font-size:20px;
+cursor:pointer;
+border-radius:5px;
+margin-bottom:-15px;
+margin-top:10px;
+}
+#profile {
+padding:50px;
+border:1px dashed grey;
+font-size:20px;
+background-color:#DCE6F7
+}
+#logout {
+float:right;
+padding:5px;
+border:dashed 1px gray
+}
+a {
+text-decoration:none;
+color:#6495ed
+}
+i {
+color:#6495ed
+}
+.checkbox-grid li {
+    display: block;
+    float: left;
+    width: 20%;
+}
