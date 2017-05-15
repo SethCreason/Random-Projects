@@ -1,0 +1,622 @@
+html {
+  background-color: #262626;
+  background-image: url('_img/bak_checkerpage.png');
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: 0px 150px;
+}
+
+body {
+	text-align: center;
+	margin:0 auto;
+  font-family: Arial, Helvetica;
+  font-size: 12px;
+  margin-top:10px;
+}
+
+#wrapper {
+	width: 880px;
+	margin:0 auto;
+	text-align: left;
+  background-color: transparent;  
+  background-image: url('_img/wrapper_middle.png');
+  behavior: url("_inc/iepngfix.htc");
+}
+
+.iepngfix { behavior: url("_inc/iepngfix.htc") }
+
+img {
+  border:0;
+ }
+
+div {
+  text-align: left;
+}  
+
+#headerContainer {
+  padding: 9px;
+  background-color: #fdf393;
+}
+
+h1 {
+  width: 100%;
+  height: 25px;
+  font-size: 18px;
+  background-color: #fdf393;
+  background-repeat: no-repeat;
+  margin: 0px;
+  behavior: url("_inc/iepngfix.htc");
+}
+
+h1 span {
+  display: none;
+}
+  
+h1#appointment {
+  background-image: url('_img/hdr_schedule_an_appointment.png');
+}    
+
+h1#services {
+  background-image: url('_img/hdr_services.png');
+}    
+
+h1#carcare {
+}    
+
+h1.carcareVideo {
+  background-image: url('_img/hdr_car_care_tips_1.png');
+}
+
+h1.carcareGuide {
+  background-image: url('_img/hdr_car_care_tips_2.png');
+}
+
+h1.carcareGas {
+  background-image: url('_img/hdr_car_care_tips_3.png');
+}
+
+h1#feedback {
+  background-image: url('_img/hdr_feedback.png');
+}    
+
+h1#contact {
+  background-image: url('_img/hdr_contact_us.png');
+}    
+
+h1#map {
+  background-image: url('_img/hdr_map.png');
+}    
+
+h3 {
+	width: 100%;
+  font-style: italic;
+  font-size: 16px;
+	line-height: 24px;
+  border-bottom: 1px solid #000;
+}  
+
+td {
+  text-align: left;
+}  
+  
+#topBar {
+	margin:0 auto;
+  height: 40px;
+  background-image: url('_img/wrapper_top.png');
+  behavior: url("_inc/iepngfix.htc");
+}
+
+#bottomBar {
+	margin:0 auto;
+  height: 40px;
+  background-image: url('_img/wrapper_bottom.png');
+  behavior: url("_inc/iepngfix.htc");
+}
+
+#bannerContainer {
+  background-image: url("_img/banner.png");
+  behavior: url("_inc/iepngfix.htc");
+  margin:0 auto;
+  width: 800px;
+  height: 197px;
+}  
+
+#bannerContent {
+  position: relative;
+  height: 40px;
+  width: 515px;
+  left: 285px;
+  top: 132px;
+}
+
+#location, #phone {
+  float: right;
+  line-height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 10px;
+}  
+
+#bottomContentContainer {
+  min-height: 918px;
+}
+
+#couponContainer {
+  background-color: #ce1b35;  
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+}
+
+#auxContentContainer1 {
+	margin:0 auto;
+  width: 800px;
+  height: 33px;
+}
+
+#auxContentContainer2 {
+  float: left;
+  padding-left: 40px;
+  width: 225px;
+}
+
+#mainContentContainer {
+  float: left;
+  background-color: #fdf393;  
+  padding: 10px 10px 250px 10px;
+  width: 545px;
+  
+  background-image: url('_img/bak_gradient_content.jpg');
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  
+  
+}
+
+#mainContent {
+  position: relative;
+  background-color: #dddddd;  
+  padding: 10px;
+  height: 280px;
+  overflow: auto;
+  margin-bottom: 5px;
+}  
+
+.adboxHome {
+  float: left;
+  margin: 4px;
+}
+
+.adboxSide {
+  width: 205px;
+  height: 171px;
+  margin: 0 auto;
+}
+
+#navlistContainer {
+}
+
+#navlist {
+  margin: 0; /*removes indent IE and Opera*/
+  padding: 0; /*removes indent Mozilla and NN7*/
+  list-style-type: none; /*turns off display of bullet*/
+  background-color:#ce1b35;
+  background-image: url('_img/bak_gradientbutton_glossy_25.png');
+  behavior: url("_inc/iepngfix.htc");
+  width: 800px;
+}  
+
+#navlist li {
+  width: 113px;
+  text-align: center;
+  float: left;
+  display: inline;
+  line-height: 25px;
+  font-size: 11px;
+  border-left: 1px solid  #000000;
+}
+
+#navlist li a { 
+  float: left;
+  width: 113px;
+  background-color: #ce1b35;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  background-image: url('_img/bak_gradientbutton_glossy_25.png');
+  behavior: url("_inc/iepngfix.htc");
+}
+
+#navlist li a.current, #navlist li a:hover {
+  background-color: #fdf393;
+  color: #000000;
+}
+
+#navlist li a span { 
+  width: 113px;
+}
+
+.sidebar {
+  width: 205px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  text-align: center;
+}  
+
+.sidebarHeader  {
+  background-image: url('_img/infobox_top.png');
+  height: 36px;  
+  line-height: 20px;
+  font-weight: bold;
+  font-size: 13px;
+  color: #000000;
+  text-align: center;
+  padding: 7px 0px 0px 4px;
+}  
+ 
+.sidebarContent {
+  background-image: url('_img/infobox_middle.png');
+  position: relative;
+  margin: 0 auto;
+  padding: 5px;
+  color: #ffffff;
+  text-align: center;
+}     
+
+.sidebarContent a {
+  color: #fff;
+}  
+
+.sidebarFooter  {
+  background-image: url('_img/infobox_bottom.png');
+  background-repeat: no-repeat;
+  height: 10px;  
+
+}  
+
+.sidebarLogo {
+  display: inline;
+  height: 35px;
+}
+
+#footer {
+  width: 780px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+
+
+.fieldGroup {
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted #000000;
+}
+
+.fieldLabelR {
+  text-align: right;
+  font-weight: bold;
+}  
+
+.fieldLabelL {
+  text-align: left;
+  font-weight: bold;
+}  
+
+select {
+  font-size:11px;
+}
+
+.formButton {
+  background-color: #ce1b35;
+  background-image: url('_img/bak_gradientbutton_glossy_25.png');  
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: bold;
+  height: 25px;
+  border: 1px solid #000000;
+  cursor: pointer;
+  cursor: hand;
+  behavior: url("_inc/iepngfix.htc");
+}  
+
+.formButton:hover {
+  background-color: #fdf393;
+  color: #000000;
+}  
+
+.footerText {
+  margin: 0 auto;
+  padding-top: 5px;
+  text-align: center;
+  color: #000000;
+}  
+
+.footerSitemap {
+  padding-top: 5px;
+  text-align: center;
+  font-size: 12px;
+  color: #000000;
+}  
+
+/* For Yahoo Tabview */
+
+.yui-skin-sam .yui-navset .yui-nav, .yui-skin-sam .yui-navset .yui-navset-top .yui-nav
+{
+  border:solid #fdf393;
+  xposition:relative;
+  zoom:1;
+  border-width:0 0 5px;
+}
+
+.yui-skin-sam .yui-navset .yui-nav a, .yui-skin-sam .yui-navset .yui-navset-top .yui-nav a
+{
+  background:#ce1b35;
+  border:solid #a3a3a3;
+  color:#ffffff;
+  position:relative;
+  text-decoration:none;
+  border-width:0 1px;
+}
+
+.yui-skin-sam .yui-navset .yui-nav .selected a, .yui-skin-sam .yui-navset .yui-nav .selected a:focus, .yui-skin-sam .yui-navset .yui-nav .selected a:hover
+{
+  background:	#fdf393;
+  color: #000000;
+  font-weight:bold;
+}
+
+.yui-skin-sam .yui-navset .yui-nav a:hover {
+  color: #000;
+}
+
+.yui-navset .yui-nav li, .yui-navset .yui-navset-top .yui-nav li, .yui-navset .yui-navset-bottom .yui-nav li
+{
+	display:inline;
+	vertical-align:bottom;
+	cursor:pointer;
+	zoom:1;
+	margin:0 .5em 0 0;
+}
+
+.yui-navset-left .yui-nav li, .yui-navset-right .yui-nav li
+{
+	display:block;
+	margin:0 0 .5em;
+}
+
+.yui-navset .yui-navset-left .yui-nav, .yui-navset .yui-navset-right .yui-nav, .yui-navset-left .yui-nav, .yui-navset-right .yui-nav
+{
+	width:6em;
+	position:absolute;
+	z-index:1;
+}
+
+.yui-navset-top .yui-nav, .yui-navset-bottom .yui-nav
+{
+	width:auto;
+	position:static;
+}
+
+.yui-navset .yui-navset-left, .yui-navset-left
+{
+	padding:0 0 0 6em;
+}
+
+.yui-navset-right
+{
+	padding:0 6em 0 0;
+}
+
+.yui-navset-top, .yui-navset-bottom
+{
+	padding:auto;
+}
+
+.yui-nav, .yui-nav li
+{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.yui-navset li em
+{
+	font-style:normal;
+}
+
+.yui-navset
+{
+	position:relative;
+	zoom:1;
+}
+
+.yui-navset .yui-content
+{
+	zoom:1;
+}
+
+.yui-navset .yui-nav a
+{
+	position:relative;
+}
+
+.yui-navset .yui-nav li a, .yui-navset-top .yui-nav li a, .yui-navset-bottom .yui-nav li a
+{
+	display:inline-block;
+	vertical-align:bottom;
+	zoom:1;
+}
+
+.yui-navset-bottom .yui-nav li a
+{
+	vertical-align:text-top;
+}
+
+.yui-navset .yui-navset-left .yui-nav, .yui-navset-left .yui-nav
+{
+	left:0;
+	right:auto;
+}
+
+.yui-navset .yui-navset-right .yui-nav, .yui-navset-right .yui-nav
+{
+	right:0;
+	left:auto;
+}
+
+.yui-skin-sam .yui-navset .yui-nav li, .yui-skin-sam .yui-navset .yui-navset-top .yui-nav li
+{
+	zoom:1;
+	margin:0 .16em 0 0;
+	padding:1px 0 0;
+}
+
+.yui-skin-sam .yui-navset .yui-nav .selected, .yui-skin-sam .yui-navset .yui-navset-top .yui-nav .selected
+{
+	margin:0 .16em -1px 0;
+}
+
+.yui-skin-sam .yui-navset .yui-nav a em, .yui-skin-sam .yui-navset .yui-navset-top .yui-nav a em
+{
+	border:solid #a3a3a3;
+	cursor:hand;
+	left:0;
+	right:0;
+	bottom:0;
+	top:-1px;
+	position:relative;
+	border-width:1px 0 0;
+	padding:.25em .75em;
+}
+
+.yui-skin-sam .yui-navset .yui-nav a:hover, .yui-skin-sam .yui-navset .yui-nav a:focus
+{
+	background: #ccc url("_inc/yui/build/tabview/assets/skins/sam/sprite.html") repeat-x left -1300px;
+	outline:0;
+}
+
+.yui-skin-sam .yui-navset .yui-nav .selected a em
+{
+	padding:.35em .75em;
+}
+
+.yui-skin-sam .yui-navset .yui-nav .selected a, .yui-skin-sam .yui-navset .yui-nav .selected a em
+{
+	border-color:#243356;
+}
+
+.yui-skin-sam .yui-navset .yui-content
+{
+	background:#fff;
+}
+
+.yui-skin-sam .yui-navset .yui-content, .yui-skin-sam .yui-navset .yui-navset-top .yui-content
+{
+	border:1px solid #808080;
+	border-top-color:#243356;
+	padding:.25em .5em;
+}
+
+.yui-skin-sam .yui-navset-left .yui-nav, .yui-skin-sam .yui-navset .yui-navset-left .yui-nav, .yui-skin-sam .yui-navset .yui-navset-right .yui-nav, .yui-skin-sam .yui-navset-right .yui-nav
+{
+	xposition:absolute;
+	top:0;
+	bottom:0;
+	border-width:0 5px 0 0;
+}
+
+.yui-skin-sam .yui-navset .yui-navset-right .yui-nav, .yui-skin-sam .yui-navset-right .yui-nav
+{
+	border-width:0 0 0 5px;
+}
+
+.yui-skin-sam .yui-navset-left .yui-nav li, .yui-skin-sam .yui-navset .yui-navset-left .yui-nav li, .yui-skin-sam .yui-navset-right .yui-nav li
+{
+	margin:0 0 .16em;
+	padding:0 0 0 1px;
+}
+
+.yui-skin-sam .yui-navset-right .yui-nav li
+{
+	padding:0 1px 0 0;
+}
+
+.yui-skin-sam .yui-navset-left .yui-nav .selected, .yui-skin-sam .yui-navset .yui-navset-left .yui-nav .selected
+{
+	margin:0 -1px .16em 0;
+}
+
+.yui-skin-sam .yui-navset-right .yui-nav .selected
+{
+	margin:0 0 .16em -1px;
+}
+
+.yui-skin-sam .yui-navset-left .yui-nav a, .yui-skin-sam .yui-navset-right .yui-nav a
+{
+	border-width:1px 0;
+}
+
+.yui-skin-sam .yui-navset-left .yui-nav a em, .yui-skin-sam .yui-navset .yui-navset-left .yui-nav a em, .yui-skin-sam .yui-navset-right .yui-nav a em
+{
+	top:auto;
+	left:-1px;
+	border-width:0 0 0 1px;
+	padding:.2em .75em;
+}
+
+.yui-skin-sam .yui-navset-right .yui-nav a em
+{
+	left:auto;
+	right:-1px;
+	border-width:0 1px 0 0;
+}
+
+.yui-skin-sam .yui-navset-left .yui-nav a, .yui-skin-sam .yui-navset-left .yui-nav .selected a, .yui-skin-sam .yui-navset-left .yui-nav a:hover, .yui-skin-sam .yui-navset-right .yui-nav a, .yui-skin-sam .yui-navset-right .yui-nav .selected a, .yui-skin-sam .yui-navset-right .yui-nav a:hover, .yui-skin-sam .yui-navset-bottom .yui-nav a, .yui-skin-sam .yui-navset-bottom .yui-nav .selected a, .yui-skin-sam .yui-navset-bottom .yui-nav a:hover
+{
+	background-image:none;
+}
+
+.yui-skin-sam .yui-navset-left .yui-content
+{
+	border:1px solid #808080;
+	border-left-color:#243356;
+}
+
+.yui-skin-sam .yui-navset-bottom .yui-nav, .yui-skin-sam .yui-navset .yui-navset-bottom .yui-nav
+{
+	border-width:5px 0 0;
+}
+
+.yui-skin-sam .yui-navset .yui-navset-bottom .yui-nav .selected, .yui-skin-sam .yui-navset-bottom .yui-nav .selected
+{
+	margin:-1px .16em 0 0;
+}
+
+.yui-skin-sam .yui-navset .yui-navset-bottom .yui-nav li, .yui-skin-sam .yui-navset-bottom .yui-nav li
+{
+	vertical-align:top;
+	padding:0 0 1px;
+}
+
+.yui-skin-sam .yui-navset .yui-navset-bottom .yui-nav a em, .yui-skin-sam .yui-navset-bottom .yui-nav a em
+{
+	top:auto;
+	bottom:-1px;
+	border-width:0 0 1px;
+}
+
+.yui-skin-sam .yui-navset-bottom .yui-content, .yui-skin-sam .yui-navset .yui-navset-bottom .yui-content
+{
+	border:1px solid #808080;
+	border-bottom-color:#243356;
+}
+
+.yui-navset-left .yui-nav li a, .yui-navset-right .yui-nav li a, .yui-navset .yui-nav li a em, .yui-navset-top .yui-nav li a em, .yui-navset-bottom .yui-nav li a em
+{
+	display:block;
+}
