@@ -42,7 +42,7 @@ CREATE TABLE IF NOT EXISTS `login` (
 --
 
 INSERT INTO `login` (`id`, `username`, `password`, `email`, `count`, `last_time`, `last_date`, `resets`) VALUES
-(1, 'screason', 'test', 'screason@email.com', 272, '00:29:30', '2017-05-09', 0);
+(1, 'test', 'test', 'my@email.com', 272, '00:29:30', '2017-05-09', 0);
 
 --
 -- Indexes for dumped tables

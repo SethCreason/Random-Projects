@@ -1,7 +1,12 @@
+<?php 
+if ($_SESSION['login_user'] == "test") :
+else: ?>
 <form action="body.php?territory_id=<?php { echo $territory_id; } ?>&vp=2" method="POST">
 <input type="hidden" name="action" value="add_ID"> 
 <input type="submit" value="Add ID">
-</form><br><?php if (isset($error)) { echo '<div style="color:red; font-weight:bold">' . $error . '</div>'; } ?>
+</form>
+<?php endif; ?>
+<br><?php if (isset($error)) { echo '<div style="color:red; font-weight:bold">' . $error . '</div>'; } ?>
             <table>
             <tr>
                 <th>UNIT</th>
@@ -29,14 +34,20 @@
                 <td class="center"><?php if ($unit['THU'] == '1') { echo '<center>THU</center>'; } ; ?></td>
                 <td class="center"><?php if ($unit['FRI'] == '1') { echo '<center>FRI</center>'; } ; ?></td>
                 <td class="center"><?php if ($unit['SAT'] == '1') { echo '<center>SAT</center>'; } ; ?></td>
-                <td class="center"><form action=".?territory_id=<?php { echo $territory_id; } ?>&vp=1&del=1" method="POST">
+                <td class="center">
+		<?php 
+		if ($_SESSION['login_user'] == "test") :
+		else: ?>
+		<form action=".?territory_id=<?php { echo $territory_id; } ?>&vp=1&del=1" method="POST">
                 <input type="hidden" name="action2" value="delete_ID"> 
                     <input type="hidden" name="unit_key"
                            value="<?php echo $unit['KEY']; ?>">
                     <input type="hidden" name="unit_name"
                            value="<?php echo $unit['UNIT_NAME'] ?>">
                     <input type="submit" value="Delete ID">
-                </form></td>
+                </form>
+		<?php endif; ?>
+		</td>
             </tr>
             <tr>
                 <td colspan="11" > Subdivisions: 
