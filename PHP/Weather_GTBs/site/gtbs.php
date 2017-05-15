@@ -1,11 +1,7 @@
-<?php 
-if ($_SESSION['login_user'] == "test") :
-else: ?>
 <form action="body.php?territory_id=<?php { echo $territory_id; } ?>&vp=2" method="POST">
 <input type="hidden" name="action" value="add_ID"> 
 <input type="submit" value="Add ID">
 </form>
-<?php endif; ?>
 <br><?php if (isset($error)) { echo '<div style="color:red; font-weight:bold">' . $error . '</div>'; } ?>
             <table>
             <tr>
@@ -35,10 +31,7 @@ else: ?>
                 <td class="center"><?php if ($unit['FRI'] == '1') { echo '<center>FRI</center>'; } ; ?></td>
                 <td class="center"><?php if ($unit['SAT'] == '1') { echo '<center>SAT</center>'; } ; ?></td>
                 <td class="center">
-		<?php 
-		if ($_SESSION['login_user'] == "test") :
-		else: ?>
-		<form action=".?territory_id=<?php { echo $territory_id; } ?>&vp=1&del=1" method="POST">
+				<form action=".?territory_id=<?php { echo $territory_id; } ?>&vp=1&del=1" method="POST">
                 <input type="hidden" name="action2" value="delete_ID"> 
                     <input type="hidden" name="unit_key"
                            value="<?php echo $unit['KEY']; ?>">
@@ -46,7 +39,6 @@ else: ?>
                            value="<?php echo $unit['UNIT_NAME'] ?>">
                     <input type="submit" value="Delete ID">
                 </form>
-		<?php endif; ?>
 		</td>
             </tr>
             <tr>
